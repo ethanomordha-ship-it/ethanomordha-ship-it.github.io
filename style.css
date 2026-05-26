@@ -1,0 +1,19 @@
+
+body{
+    background-color:green;
+}
+
+h1{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.centered {
+   text-align: center;
+}
