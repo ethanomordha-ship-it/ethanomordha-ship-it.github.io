@@ -3,7 +3,7 @@ body{
     background-color: rgb(255, 146, 146);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h3, h4, h5, h6{
     color: rgb(255, 146, 146);
     font-family: Trebuchet, Verdana, Tahoma;
 }
@@ -69,6 +69,11 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+
 .text-container p {
     margin: .75em 0 1em 0;
     font-size: 1.25rem;
@@ -86,4 +91,22 @@ h1 {
 
 .secondary {
     background-color: lightsalmon;
+}
+
+section {
+    padding: 3em min(2em, 15%);
+    text-align: center;
+}
+
+section p{
+    margin-top: 1em;
+    font-size: 1.25rem;
+}
+
+#TCDSU {
+    background-color: lightblue;
+}
+
+#DUCSS {
+    background-color: rgb(255, 155, 45);
 }
