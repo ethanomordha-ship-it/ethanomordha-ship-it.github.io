@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
      <link rel="stylesheet" href="styles.css">
+     <!-- <link rel="Functions" href="page.js"> -->
 
 <head>
     <title>Ethan Ó Mórdha - Home</title>
         <meta charset="UTF-8">
-
 </head>
+</style>
+<body style="text-align:center">
 
 <body>
+
+        <dialog open>
+            <h3 style="color: black">No Generative-AI was used in the making of this site</h3>
+                <h5 style="color: black; font-family:courier;">"Once men turned their thinking over to machines in the hope that this would set them free. 
+                But that only permitted other men with machines to enslave them."<br/> - Frank Herbert</h6>
+        <button onclick="document.querySelector('dialog').close();">
+            OK
+        </button>
+    </dialog>
+
     <header>
         <nav>
             <ul>
-                                 <li>Ethan Ó Mórdha</li>
-                 <li><a href="https://www.linkedin.com/in/ethan-%C3%B3-m%C3%B3rdha-5414043bb/">LinkdIn</a></li>
+                 <li>Ethan Ó Mórdha</li>
+                 <li><a href="https://www.linkedin.com/in/ethan-%C3%B3-m%C3%B3rdha-5414043bb/" alt="Link to my LinkedIn">LinkedIn</a></li>
                  <li><a href="">Github</a></li>
-                 <li><a href="https://www.instagram.com/ethan_o_mordha/">Instagram</a></li>
-                 <li><a href="#Contact">Contact</a></li>
+                 <li><a href="https://www.instagram.com/ethan_o_mordha/" alt="Link to my Instagram">Instagram</a></li>
+                 <li><a href="#Contact" alt="Link to my contact details">Contact</a></li>
             </ul>
         </nav>
         <div class="flex-container">
@@ -29,44 +41,49 @@
         </div>
     </header>
 
+    <section id="ComputerScience">
+        <div class="flex-container">
+            <div class="text-container">
+                <h2>Computer Science, Linguistics and Irish</h2>
+                <p style="color: white">
+                    I study CSLL at Trinity College. The course combines the study of Computer Science, the study of Irish and the study of Linguistics;
+                    Linguistics is the scientific study of language and computational linguistics is
+                     the study of languages from a computational perspective. The course ensures that I have the highest possible level of
+                     fluency in the Irish language.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="TCDSU">
+        <div class="flex-container">
+            <img height="300px" src="images/tcdsu.jpg" alt="Logo of the Trinity College Dublin Students Union">
+            <div class="text-container">
+                <h2>TCD Students Union</h2>
+                <p style="color: white">
+                    I'm the Class-Representative for "Computer Science, Linguistics and a Language" students on the Unions council.
+                     I serve as one of the main points of contact between students and lecturers.
+                     In my time as a rep, I've successfully lobbied for the abolishment of 0-Credit Modules for the CSLL course and handled a number of student complaints.
+                     I have also worked with the College on outreach to prospective students.
+                    </p>
+            </div>
+        </div>
+    </section>
+
     <section id="DUCSS">
         <div class="flex-container">
             <div class="text-container">
                 <h2>DUCSS</h2>
-                <p style="color: white">I am currently serving as one of two "Gaming and E-Sports Officers" on the "Dublin University Computer Science Society" committee.
-                     I am responsible for organising gaming-centred social events.</p>
+                <p style="color: white">
+                    I am currently serving as one of two "Gaming and E-Sports Officers" on the "Dublin University Computer Science Society" committee.
+                     I am responsible for organising gaming-centred social events.
+                    </p>
                      <a style="background-color: white; color:rgb(255, 155, 45);" href="https://ducss.ie/" class="cta-button" alt="Link to Computer Science Society website">About DUCSS</a>
             </div>
             <img width="350px" src="images/Header_Image.jpg" alt=" ">
         </div>
     </section>
 
-    <section id="TCDSU">
-        <div class=""flex-container>
-            <img height="400px" src="images/tcdsu.jpg" alt="Logo of the Trinity College Dublin Students Union">
-            <div class="text-container">
-                <h2>TCD Students Union</h2>
-                <p style="color: white">I serve as the Class-Represntative for "Computer Science, Linguistics and a Language" students on the Unions council.
-                     I aslo serve as one of the main points of cantact between students and lecturers.
-                     In my time as a rep, I've successfully lobbied for the abolishment of 0-Credit Modules for the CSLL course and handled numerous student complaints.
-                     I have also worked with the College on outreach its to prospective students.</p>
-            </div>
-        </div>
-    </section>
-
-     <section id="Oxfam">
-        <div class="flex-container">
-            <div class="text-container">
-                <h2 style="color: rgb(15, 200, 80)">Oxfam</h2>
-                <p style="color: rgb(15, 200, 80)">
-                    Since 2025 I've worked with Oxfam Ireland as a volunteer retail assistant. As part of my customer facing role, I'm proud to represent a charity that in 2024 reached 15.3 million people in 81 countries.
-                </p>
-                     <a style="background-color: rgb(15, 200, 80); color: white;" href="https://oxfamireland.org/" class="cta-button" alt="Link to Oxfam's website">About Oxfam</a>
-            </div>
-            <img width="350px" src="images/Header_Image.jpg" alt=" ">
-        </div>
-    </section>    
-     
 </body>
 
 </html>
