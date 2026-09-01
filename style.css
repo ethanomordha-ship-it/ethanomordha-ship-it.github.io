@@ -80,16 +80,14 @@ h2 {
 
 dialog {
   position: fixed;
-  /* Move it 50% relative to container */
   top: 50%;
   left: 50%;
-  /* Move it back 50% relative to self */
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
     border-radius: 10px;
-    border-color: grey;
+    border-color: maroon;
     background-color: #E6B493;
     font-family: Arial, Helvetica, sans-serif;
 }
