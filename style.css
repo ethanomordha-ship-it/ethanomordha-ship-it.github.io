@@ -3,12 +3,12 @@ body{
     background-color: rgb(255, 146, 146);
 }
 
-h1, h3, h4, h6{
+h1, h3, h5, h6{
     color: rgb(255, 146, 146);
     font-family: Trebuchet, Verdana, Tahoma;
 }
 
-h5 {
+h4 {
     font-style: italic;
 }
 
