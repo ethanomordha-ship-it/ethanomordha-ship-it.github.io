@@ -30,10 +30,13 @@ nav ul {
 }
 
 nav li:first-child {
+    font-size: large;
+    font-size: large;
     margin-right: auto;
 }
 
 nav a {
+    font-size: large;
     text-decoration: none;
     color: black;
 }
